@@ -1,3 +1,113 @@
+## 0.17.0 (2015-08-14)
+
+
+#### Bug Fixes
+
+* **config.js:** revert original config.js ([6077faf2](http://github.com/aurelia/skeleton-navigation/commit/6077faf23ef8db448be62c1dd535776eec604dd9))
+* **e2e:** switch from flickr to users navigation test ([6f4f195a](http://github.com/aurelia/skeleton-navigation/commit/6f4f195a972aa8b31a0a819f3ed31a68163e6d1b))
+* **test:** fix broken unit test ([3cbc4a0a](http://github.com/aurelia/skeleton-navigation/commit/3cbc4a0ae5992cb6fc7f8fdf3a353b51d38f6822))
+
+
+#### Features
+
+* **bundle config:** package path ([69d36cee](http://github.com/aurelia/skeleton-navigation/commit/69d36cee3b90be4746c5a1edf92ce32119278bea))
+* **bundling:** add bundle configuration with aurelia-cli ([77d52d0a](http://github.com/aurelia/skeleton-navigation/commit/77d52d0a97d3a1a25190f82fe7f465ddf68ffd26))
+
+
+### 0.16.2 (2015-08-05)
+
+
+#### Bug Fixes
+
+* **package:** remove old framework version ([a2bec337](http://github.com/aurelia/skeleton-navigation/commit/a2bec3373bee7a65f642ba358e178e5cc7270805))
+
+
+### 0.16.1 (2015-08-05)
+
+
+#### Bug Fixes
+
+* **config:** correct start path by removing the js extension ([d2149e4e](http://github.com/aurelia/skeleton-navigation/commit/d2149e4e0acf8f3ce3013b6c4ca5f97a88138948))
+
+
+## 0.16.0 (2015-08-05)
+
+
+#### Bug Fixes
+
+* **all:** update source to work with jspm beta ([53f5cf1a](http://github.com/aurelia/skeleton-navigation/commit/53f5cf1ad0d07d8a1f1087e17a93ecb8718fca62))
+* **css:** fix print styles ([dfcf28a8](http://github.com/aurelia/skeleton-navigation/commit/dfcf28a84e07a7ee62635513d836cfa8b3523a87))
+* **index:** update font awesome reference ([686b337c](http://github.com/aurelia/skeleton-navigation/commit/686b337c188855bc4fc255872f09528beed20a10))
+* **styles:** correct some class names ([eeed0111](http://github.com/aurelia/skeleton-navigation/commit/eeed01119b85ea000528eaff89c93d55ca5102e4))
+* **users:** move the fetch polyfil load to users so the main.js isn't required ([53a3e2be](http://github.com/aurelia/skeleton-navigation/commit/53a3e2be259a68dad77d1e7976abd5efaaf82869))
+
+
+#### Features
+
+* **all:** switch over to github users in place of flickr ([6fd31066](http://github.com/aurelia/skeleton-navigation/commit/6fd310664a4056f6984915b35ba245c0cf3c0b82))
+
+
+### 0.15.1 (2015-07-02)
+
+
+## 0.15.0 (2015-07-02)
+
+
+#### Bug Fixes
+
+* **build:** include source in source maps. resolve #111 ([e6accba4](http://github.com/aurelia/skeleton-navigation/commit/e6accba4a533100f56a7040ff4010390bd9f0bad))
+* **package:** reduce debug requests using core-js override ([cede89f6](http://github.com/aurelia/skeleton-navigation/commit/cede89f6768017b238aac0e73e9bf41d9a502220))
+* **tests:** Fix unit tests ([8abc7741](http://github.com/aurelia/skeleton-navigation/commit/8abc7741c7b64ad0b54d7ef1f14d93bb5c0599cf))
+
+
+#### Features
+
+* **routes:** name all routes ([a3cb19ce](http://github.com/aurelia/skeleton-navigation/commit/a3cb19ce63f9a53c58c36244f9cca20ead54fb32))
+
+
+## 0.14.0 (2015-06-09)
+
+
+#### Bug Fixes
+
+* **all:** update route config to match changes in router ([5f272a41](http://github.com/aurelia/skeleton-navigation/commit/5f272a41e8df271f4b2437472bbc0673cd2ef62d))
+* **config:**
+  * add mappings that reflect the EA deps for pre-release testing ([d7cebc67](http://github.com/aurelia/skeleton-navigation/commit/d7cebc67c0b8af43570993d4ab127d97641962c1))
+  * revert path config after tool change ([a1c4524b](http://github.com/aurelia/skeleton-navigation/commit/a1c4524b9f84178b70787da4d8642ed8573a0491))
+* **karma:**
+  * Fixed tests to adhere to new flickr route ([caf4838c](http://github.com/aurelia/skeleton-navigation/commit/caf4838cb44885826e6eaf7455332581f8ad8cb1))
+  * properly set jspm paths for karma ([75584889](http://github.com/aurelia/skeleton-navigation/commit/7558488953b860336a6b4ab3a1c8a2fb7501c122))
+* **package:** update deps to latest versions ([4fa8356c](http://github.com/aurelia/skeleton-navigation/commit/4fa8356c689d3be8086ab6063dda7af3cfbdca3f))
+* **styles:** change the image animation ([009f4e28](http://github.com/aurelia/skeleton-navigation/commit/009f4e2875cb1c8aea50269577ab28906b6d58bf))
+* **tests:** Fix unit tests for new release ([89b75782](http://github.com/aurelia/skeleton-navigation/commit/89b75782eb1a28771475c49b29be157e4eda8e63))
+* **welcome:** rename the welcome method to submit ([5e4894f3](http://github.com/aurelia/skeleton-navigation/commit/5e4894f354306f1da0e525a214a6edb3563aecba))
+
+
+#### Features
+
+* **anim:** adds staggering animations ([5324e133](http://github.com/aurelia/skeleton-navigation/commit/5324e133e8ccfc64655d8362b8830ce32a56470d))
+* **flickr:** move canDeactivate prompt into Welcome ([834b83a8](http://github.com/aurelia/skeleton-navigation/commit/834b83a85f2e36d978482b0ce8c61f45f68841bc))
+
+
+## 0.13.0 (2015-05-01)
+
+
+#### Bug Fixes
+
+* **all:** update to latest router usage ([1bb373f7](http://github.com/aurelia/skeleton-navigation/commit/1bb373f73e224f084ac8b3bc330aeffb5d9bf5f0))
+* **anim:** Remove welcome class animation ([a68fc9d4](http://github.com/aurelia/skeleton-navigation/commit/a68fc9d41f866aacccb1cc1b567b18af58141d1b))
+* **build:** use relative path for source maps. resolve  #66 ([aaf3cc9a](http://github.com/aurelia/skeleton-navigation/commit/aaf3cc9a67f86275a94666ab328f2ca74a7f7c52))
+* **flickr:** remove inline styles ([612e0ea6](http://github.com/aurelia/skeleton-navigation/commit/612e0ea67e4bf13685644ff5055f5e36ffc7ad07))
+* **index:** add the viewport meta tag to ensure proper rendering and touch zooming ([0ecf0b9e](http://github.com/aurelia/skeleton-navigation/commit/0ecf0b9ea97245492bd9224dfb8cc9b940f254d1))
+* **navbar:** automatically collapse the navigation menu on click ([28f3c6fa](http://github.com/aurelia/skeleton-navigation/commit/28f3c6faf1fa3d1533f6470b273bacea7ed76eb7))
+* **package:** update dependencies ([dfe57813](http://github.com/aurelia/skeleton-navigation/commit/dfe57813459d012c05affa6c09acb568854c07e3))
+
+
+#### Features
+
+* **anim:** Add animation example ([675d15a1](http://github.com/aurelia/skeleton-navigation/commit/675d15a153c399f524070e7cb468caae3230febe))
+
+
 ## 0.12.0 (2015-04-09)
 
 
