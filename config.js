@@ -1,22 +1,20 @@
 System.config({
-  "defaultJSExtensions": true,
-  "transpiler": "babel",
-  "babelOptions": {
+  defaultJSExtensions: true,
+  transpiler: "babel",
+  babelOptions: {
     "optional": [
       "es7.decorators",
       "es7.classProperties",
       "runtime"
     ]
   },
-  "paths": {
+  paths: {
     "*": "dist/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
-  }
-});
+  },
 
-System.config({
-  "map": {
+  map: {
     "aurelia-animator-css": "github:aurelia/animator-css@0.16.0",
     "aurelia-binding": "github:aurelia/binding@0.9.1",
     "aurelia-bootstrapper": "github:aurelia/bootstrapper@0.17.0",
@@ -38,10 +36,10 @@ System.config({
     "aurelia-templating-binding": "github:aurelia/templating-binding@0.15.0",
     "aurelia-templating-resources": "github:aurelia/templating-resources@0.15.2",
     "aurelia-templating-router": "github:aurelia/templating-router@0.16.1",
-    "babel": "npm:babel-core@5.8.24",
-    "babel-runtime": "npm:babel-runtime@5.8.20",
+    "babel": "npm:babel-core@5.8.25",
+    "babel-runtime": "npm:babel-runtime@5.8.25",
     "bootstrap": "github:twbs/bootstrap@3.3.5",
-    "core-js": "npm:core-js@0.9.18",
+    "core-js": "npm:core-js@1.1.4",
     "fetch": "github:github/fetch@0.9.0",
     "font-awesome": "npm:font-awesome@4.4.0",
     "text": "github:systemjs/plugin-text@0.0.2",
@@ -163,10 +161,15 @@ System.config({
     "github:twbs/bootstrap@3.3.5": {
       "jquery": "github:components/jquery@2.1.4"
     },
-    "npm:babel-runtime@5.8.20": {
+    "npm:babel-runtime@5.8.25": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:core-js@0.9.18": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
+    },
+    "npm:core-js@1.1.4": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
@@ -176,4 +179,3 @@ System.config({
     }
   }
 });
-
