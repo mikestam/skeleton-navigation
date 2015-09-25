@@ -1,3 +1,36 @@
+### 0.18.1 (2015-09-11)
+
+
+#### Bug Fixes
+
+* **build:**
+  * copy css files over to the dist folder ([e640fc29](http://github.com/aurelia/skeleton-navigation/commit/e640fc29f591115dc5cc086cd22259b5b018e858))
+  * copy css files over to the dist folder ([a64608ea](http://github.com/aurelia/skeleton-navigation/commit/a64608ea64ddf8c3a13ec91395793cfaf7444398))
+* **package:** add text plugin for bundle build ([2918261f](http://github.com/aurelia/skeleton-navigation/commit/2918261f39876bee844eff624360afb7271bb545))
+
+
+#### Features
+
+* **bundle:**
+  * configure gulp task with aurelia-bundler. ([8f815c63](http://github.com/aurelia/skeleton-navigation/commit/8f815c638465eabdb565fe7314a86e49d3103c11))
+  * add gulp bundle task with aurelia-bundler ([8869cc96](http://github.com/aurelia/skeleton-navigation/commit/8869cc96c7867b624b5c60fdaaea5ecc63465990))
+
+
+## 0.18.0 (2015-09-05)
+
+
+#### Bug Fixes
+
+* **main:** add notes on html import template loader plugin ([aa9cf940](http://github.com/aurelia/skeleton-navigation/commit/aa9cf940904004e439bab86db0892d5379b0675e))
+* **package:** point main at a real file ([3ed86d20](http://github.com/aurelia/skeleton-navigation/commit/3ed86d20e862af781ec1761406f8c0aad0c66b83), closes [#157](http://github.com/aurelia/skeleton-navigation/issues/157))
+* **test:** fix e2e test broken during fetch-client migration ([182c7a21](http://github.com/aurelia/skeleton-navigation/commit/182c7a21de3b9c6dd637dc339c24b09d28264640))
+
+
+#### Features
+
+* **all:** new simple html elements, css resources and text-based views ([b3e762c7](http://github.com/aurelia/skeleton-navigation/commit/b3e762c7c8bd694fdb627976cdd19091c0e5774a))
+
+
 ## 0.17.0 (2015-08-14)
 
 
